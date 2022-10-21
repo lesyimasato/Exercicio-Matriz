@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title> Matriz </title>
+</head>
+<body>
+    
+    <p class="word" align="center"> Caça-Palavras - Ingredientes para Cheesecake de Manga </p>
+
+        <script>
+            matriz = new Array();
+            matriz = [
+                [ ['S', 'cWords2'], ['U', 'cWords2'], ['C', 'cWords2'], ['O', 'cWords2'], ['D', 'cWords2'], ['E', 'cWords2'], ['L', 'cWords2'], ['I', 'cWords2'], ['M', 'cWords2'], ['Ã', 'cWords2'], ['O', 'cWords2'], ['G', 'cWords'], ['N', 'cWords'], ['S', 'cWords'], ['H', 'cWords2'], ['M', 'cWords'], ['A', 'cWords'], ['C', 'cWords2'] ], 
+                [ ['A', 'cWords'], ['N', 'cWords'], ['B', 'cWords2'], ['I', 'cWords2'], ['S', 'cWords2'], ['C', 'cWords2'], ['O', 'cWords2'], ['I', 'cWords2'], ['T', 'cWords2'], ['O', 'cWords2'], ['L', 'cWords'], ['L', 'cWords'], ['Q', 'cWords'], ['P', 'cWords'], ['O', 'cWords2'], ['B', 'cWords'], ['M', 'cWords'], ['H', 'cWords2'] ], 
+                [ ['G', 'cWords2'], ['S', 'cWords'], ['I', 'cWords'], ['U', 'cWords'], ['Ç', 'cWords'], ['R', 'cWords2'], ['S', 'cWords'], ['B', 'cWords'], ['U', 'cWords'], ['T', 'cWords'], ['W', 'cWords'], ['R', 'cWords'], ['T', 'cWords'], ['I', 'cWords'], ['R', 'cWords2'], ['Q', 'cWords'], ['A', 'cWords'], ['A', 'cWords2'] ], 
+                [ ['E', 'cWords2'], ['D', 'cWords'], ['Y', 'cWords'], ['J', 'cWords'], ['A', 'cWords'], ['E', 'cWords2'], ['V', 'cWords'], ['W', 'cWords'], ['W', 'cWords'], ['E', 'cWords'], ['E', 'cWords'], ['S', 'cWords'], ['N', 'cWords'], ['T', 'cWords'], ['T', 'cWords2'], ['T', 'cWords'], ['F', 'cWords'], ['N', 'cWords2'] ], 
+                [ ['L', 'cWords2'], ['W', 'cWords'], ['D', 'cWords'], ['S', 'cWords'], ['S', 'cWords'], ['A', 'cWords2'], ['J', 'cWords'], ['M', 'cWords2'], ['A', 'cWords2'], ['N', 'cWords2'], ['G', 'cWords2'], ['A', 'cWords2'], ['I', 'cWords'], ['L', 'cWords'], ['E', 'cWords2'], ['F', 'cWords'], ['I', 'cWords'], ['T', 'cWords2'] ], 
+                [ ['A', 'cWords2'], ['Z', 'cWords'], ['L', 'cWords'], ['R', 'cWords'], ['F', 'cWords'], ['M', 'cWords2'], ['Ç', 'cWords2'], ['I', 'cWords'], ['K', 'cWords'], ['A', 'cWords'], ['C', 'cWords'], ['G', 'cWords2'], ['L', 'cWords'], ['G', 'cWords'], ['L', 'cWords2'], ['G', 'cWords'], ['Z', 'cWords'], ['I', 'cWords2'] ], 
+                [ ['T', 'cWords2'], ['K', 'cWords'], ['V', 'cWords'], ['C', 'cWords'], ['V', 'cWords'], ['C', 'cWords2'], ['M', 'cWords'], ['U', 'cWords2'], ['L', 'cWords'], ['G', 'cWords'], ['N', 'cWords'], ['U', 'cWords2'], ['M', 'cWords'], ['U', 'cWords'], ['Ã', 'cWords2'], ['Y', 'cWords'], ['C', 'cWords'], ['L', 'cWords2'] ], 
+                [ ['I', 'cWords2'], ['F', 'cWords'], ['M', 'cWords'], ['R', 'cWords'], ['H', 'cWords'], ['H', 'cWords2'], ['S', 'cWords'], ['P', 'cWords'], ['C', 'cWords2'], ['J', 'cWords'], ['T', 'cWords'], ['A', 'cWords2'], ['G', 'cWords'], ['A', 'cWords'], ['B', 'cWords'], ['U', 'cWords'], ['P', 'cWords'], ['L', 'cWords2'] ], 
+                [ ['N', 'cWords2'], ['U', 'cWords'], ['A', 'cWords'], ['E', 'cWords'], ['J', 'cWords'], ['E', 'cWords2'], ['T', 'cWords'], ['S', 'cWords'], ['V', 'cWords'], ['A', 'cWords2'], ['I', 'cWords'], ['V', 'cWords'], ['A', 'cWords'], ['M', 'cWords'], ['L', 'cWords'], ['I', 'cWords'], ['X', 'cWords'], ['Y', 'cWords2'] ],
+                [ ['A', 'cWords2'], ['G', 'cWords'], ['W', 'cWords'], ['B', 'cWords'], ['X', 'cWords'], ['E', 'cWords2'], ['U', 'cWords'], ['Q', 'cWords'], ['N', 'cWords'], ['K', 'cWords'], ['R', 'cWords2'], ['M', 'cWords'], ['E', 'cWords'], ['R', 'cWords'], ['N', 'cWords'], ['P', 'cWords'], ['U', 'cWords'], ['N', 'cWords'] ],
+                [ ['F', 'cWords'], ['M', 'cWords'], ['Q', 'cWords'], ['N', 'cWords'], ['I', 'cWords'], ['S', 'cWords2'], ['A', 'cWords'], ['B', 'cWords'], ['M', 'cWords'], ['N', 'cWords'], ['S', 'cWords'], ['W', 'cWords'], ['L', 'cWords'], ['S', 'cWords'], ['R', 'cWords'], ['O', 'cWords'], ['I', 'cWords'], ['A', 'cWords'] ],
+                [ ['H', 'cWords'], ['R', 'cWords'], ['I', 'cWords'], ['L', 'cWords'], ['A', 'cWords'], ['E', 'cWords2'], ['K', 'cWords'], ['M', 'cWords2'], ['A', 'cWords2'], ['N', 'cWords2'], ['T', 'cWords2'], ['E', 'cWords2'], ['I', 'cWords2'], ['G', 'cWords2'], ['A', 'cWords2'], ['M', 'cWords'], ['A', 'cWords'], ['O', 'cWords'] ],
+            ];
+
+            document.write("<table class='tables'>");
+
+            for(i = 0; i < 12; i++) {
+                document.write('<tr>');
+                    for(j = 0; j < 18; j++) {
+                        document.write("<td width='30' class='" + matriz[i][j][1] + "'>" + matriz[i][j][0] + "</td>");
+                    }
+                document.write('</tr>');
+            }
+
+            document.write("</table>")
+        
+        </script>
+        
+        <div class="contetudo">
+            <table class="tabela">
+                <tr class="t1">
+                    <td class="d1">
+                        <p class="word1" align="center"> Manga </p>
+                    </td>
+
+                    <td class="d1">
+                        <p class="word1" align="center"> Suco de Limão </p>
+                    </td>
+
+                    <td class="d1">
+                        <p class="word1" align="center"> Biscoito </p>
+                    </td>
+
+                    <td class="d1">
+                        <p class="word1" align="center"> Açucar </p>
+                    </td>
+
+                    <td class="d1">
+                        <p class="word1" align="center"> Agua </p>
+                    </td>
+                </tr>
+
+                <tr class="t1">
+                    <td>
+                        <p class="word1" align="center"> Manteiga </p>
+                    </td>
+
+                    <td>
+                        <p class="word1" align="center"> Gelatina </p>
+                    </td>
+
+                    <td>
+                        <p class="word1" align="center"> Chantilly </p>
+                    </td>
+
+                    <td class="d1">
+                        <p class="word1" align="center"> Creamcheese </p>
+                    </td>
+
+                    <td class="d1">
+                        <p class="word1" align="center"> Hortelã </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        
+    
+
+</body>
+</html>
+
+<!-- 
+        Ingredientes para fazer cheesecake de manga
+
+        1 8 9 1 8 9 1 8 9 1 8 1 8 9 1 8 9
+        8 5 B I S C O I T O 8 1 8 9 1 8 9
+        9 7 R 1 8 R 1 8 9 1 8 1 8 9 1 8 9
+        1 8 A 1 8 E 1 8 9 1 8 1 8 9 1 8 9
+        1 8 N 1 8 A 1 M A N G A 8 9 1 8 9
+        1 8 S 1 8 M Ç 8 9 1 8 1 8 9 1 8 9
+        1 8 I 1 8 C 1 U 9 1 8 1 8 9 1 8 9
+        1 8 T 1 8 H 1 8 C 1 8 1 8 9 1 8 9
+        1 8 O 1 8 E 1 8 9 A 8 1 8 9 1 8 9
+        1 8 9 1 8 E 1 8 9 1 R 1 8 9 1 8 9
+        1 8 9 1 8 S 1 8 9 1 8 1 8 9 1 8 9
+        1 8 9 1 8 E 1 8 9 1 8 1 8 9 1 8 9
+    -->
+    
+    <!--
+    <script>
+        matriz = new Array;
+        matriz = [
+                  ["S", "U", "C", "O", "D", "E", "L", "I", "M", "Ã", "O", 5, 5, 5, "H", 5, 5, "C"],
+                  [1, 8, "B", "I", "S", "C", "O", "I", "T", "O", 5, 5, 5, 5, "O", 5, 5, "H"],
+                  ["G", 8, 9, 9, 6, "R", 5, 5, 5, 5, 5, 5, 5, 5, "R", 5, 5, "A"],
+                  ["E", 8, 9, 9, 6, "E", 5, 5, 5, 5, 5, 5, 5, 5, "T", 5, 5, "N"],
+                  ["L", 8, 9, 9, 6, "A", 5, "M", "A", "N", "G", "A", 5, 5, "E", 5, 5, "T"],
+                  ["A", 8, 9, 9, 6, "M", "Ç", 5, 5, 5, 5, "G", 5, 5, "L", 5, 5, "I"],
+                  ["T", 8, 9, 9, 6, "C", 5, "U", 5, 5, 5, "U", 5, 5, "Ã", 5, 5, "L"],
+                  ["I", 8, 9, 9, 6, "H", 5, 5, "C", 5, 5, "A", 5, 5, 5, 5, 5, "L"],
+                  ["N", 8, 9, 9, 6, "E", 5, 5, 5, "A", 5, 5, 5, 5, 5, 5, 5, "Y"],
+                  ["A", 8, 9, 9, 6, "E", 5, 5, 5, 5, "R", 5, 5, 5, 5, 5, 5, 5],
+                  [1, 8, 9, 9, 6, "S", 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+                  [1, 8, 9, 9, 6, "E", 5, "M", "A", "N", "T", "E", "I", "G", "A", 5, 5, 5],
+                 ];
+        
+        document.write("<table border='0' class='tables'>");    
+            
+        for(linha = 0; linha < 12; linha++){
+
+            document.write("<tr>");
+
+            for(coluna=0; coluna < 18; coluna++){
+                document.write("<td width='20' align='center' id='oi'>" + matriz[linha][coluna] + "</td>");
+            }
+
+            document.write("</tr>");
+
+        }
+
+        
+
+        document.write("</table>"); 
+
+        /*
+        
+        1 8 9 
+        8 5 2
+        9 7 6
+        
+        */
+
+    </script>
+
+</body>
+</html>
+-->
